@@ -1,8 +1,8 @@
 const CONFIG_HEXO = {
   HOME_BANNER_ENABLE: true,
-  HOME_BANNER_GREETINGS: ['Hi，我是一个程序员', 'Hi，我是一个打工人', 'Hi，我是一个干饭人', '欢迎来到我的博客🎉'], // 首页大图标语文字
+  HOME_BANNER_GREETINGS: ['欢迎来到江门', '欢迎来到碧海银湖', '欢迎来到我的家🎉'], // 首页大图标语文字
 
-  HOME_NAV_BUTTONS: true, // 首页是否显示分类大图标按钮
+  HOME_NAV_BUTTONS: false, // 首页是否显示分类大图标按钮
 
   // 菜单配置
   MENU_CATEGORY: true, // 显示分类
@@ -20,10 +20,10 @@ const CONFIG_HEXO = {
   ARTICLE_COPYRIGHT: true, // 显示文章版权声明
   ARTICLE_RECOMMEND: true, // 文章关联推荐
 
-  WIDGET_LATEST_POSTS: true, // 显示最新文章卡
+  WIDGET_LATEST_POSTS: false, // 显示最新文章卡
   WIDGET_ANALYTICS: false, // 显示统计卡
   WIDGET_TO_TOP: true,
-  WIDGET_TO_COMMENT: true, // 跳到评论区
+  WIDGET_TO_COMMENT: false, // 跳到评论区
   WIDGET_DARK_MODE: true, // 夜间模式
   WIDGET_TOC: true // 移动端悬浮目录
 }
